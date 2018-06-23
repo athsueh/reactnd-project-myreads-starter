@@ -32,11 +32,13 @@ body, .app {
 
 @media (min-width: 600px) {
   .bookshelf {
-    padding: 0 20px 40px;
+    padding: 20px 20px 40px;
   }
 }
 
 .bookshelf-title {
+  font-size: 26px;  
+  font-weight: bold;
   border-bottom: 1px solid #dedede;
 }
 .bookshelf-books {
@@ -120,7 +122,8 @@ body, .app {
 }
 
 .book {
-  width: 140px;
+  width: 190px;
+  padding-right: 50px;
 }
 .book-title,
 .book-authors {
@@ -166,6 +169,8 @@ body, .app {
 .book-cover {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   background: #eee;
+  width: 128px;
+  height: 192px;
 }
 .book-cover-title {
   padding: 20px 10px 0;
