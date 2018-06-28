@@ -1,6 +1,8 @@
 # MyReads Project
 This project was created for the 1st assignment of Udacity's React Fundamentals course. The purpose of this project is to demonstrate React app structure and API integration.
 
+**A live demo can be viewed at: https://myreads1.herokuapp.com/**
+
 ## Installation
 Once the repository has been cloned, it can be installed with:
 ```
